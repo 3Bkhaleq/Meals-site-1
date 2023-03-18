@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background: #000;
+}
+
+
+.cards-Meals{
+display: flex;
+flex-wrap: wrap;
+width: 75%;
+scale: 1.12;
+justify-content: center;
+margin: auto;
+margin-top: 30px;
+border-style: none;
+
+}
+
+
+
+
+
+.card-Meal img{
+border-radius: 10px;
+margin: 15px;
+
+}
+.card-Meal {
+    
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:20px;
+height: 290px;
+
+    position: relative;
+
+    
+ }
+
+ .card-Meal img{
+    border-radius:20px;
+ }
+
+
+
+ .lyer{
+       opacity: 0;
+       height: 50px;
+       width: 100%;
+       background-color: darkgray;
+       text-align:center ;
+       border-radius: 20px;
+      display: flex;
+      align-items: center;
+      font-size: larger;
+      font-family: sans-serif;
+    }
+
+
+
+
+
+
+
+
+
+
+    .lyer:hover{
+       opacity: 0.8;
+       height: 100%;
+       transition-duration: 1.5s;
+    }
+
+
+
+
+
+
+
+
+
+
+.search{
+    width: 78%;
+    margin: auto;
+    display: flex;
+}
+
+.input1{
+ 
+    font-size: 17px;
+
+   margin: 20px;
+ 
+}
+.input1::placeholder{
+color: aliceblue;
+font-style: italic;
+
+}
+
+
+
+
+
+
+.containerLogin{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+  
+   margin: auto;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+
+.first{
+    width: 50%;
+
+}
+.second{
+    width: 50%;
+}
+
+.containercontainer{
+    height: 100vh;
+   
+    display: flex;
+
+}
+
+.containercontainer input{
+    margin: 20px;
+    margin: auto;
+}
+
+
+.btn1{
+    width: 100%;
+    text-align: center;
+    
+} 
+
+
+
+
+#btnnav{
+    position: absolute;
+  top:40vh ;
+  background-color: rgba(182, 162, 139, 0.993);
+  position: fixed;
+}
+
+
+
+
+
+.navv{
+    background-color: rgba(255, 228, 196, 0.507);
+    
+  transition-duration: 1.6s;
+}
+
+.navLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.navLinks a{
+   text-decoration: none;
+ 
+  color: aliceblue;
+  font-size: larger;
+  font-family: sans-serif;
+
+ font-weight: 600;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
